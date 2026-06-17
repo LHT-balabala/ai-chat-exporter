@@ -19,10 +19,12 @@
 ### 方式一：Tampermonkey 用户脚本（推荐个人用户）
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. 点击下方链接安装对应脚本：
-   - [DeepSeek Chat Exporter](https://greasyfork.org/zh-CN/scripts/...) 
-   - [Claude Chat Exporter](https://greasyfork.org/zh-CN/scripts/...)
-   - [ChatGPT Exporter](https://greasyfork.org/zh-CN/scripts/...)
+2. 点击下方链接一键安装（已安装 Tampermonkey 会自动弹出安装窗口）：
+   - [DeepSeek Chat Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/deepseek-chat-exporter.user.js)
+   - [Claude Chat Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/claude-chat-exporter.user.js)
+   - [ChatGPT Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/chatgpt-chat-exporter.user.js)
+
+> 也可在 [Greasy Fork](https://greasyfork.org/zh-CN/scripts?q=AI+Chat+Exporter) 或 [OpenUserJS](https://openuserjs.org/) 搜索安装
 
 ### 方式二：Chrome 扩展（一键安装全部）
 
