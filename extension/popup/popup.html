@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chat Exporter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <svg class="logo" width="32" height="32" viewBox="0 0 128 128">
+        <rect width="128" height="128" rx="16" fill="#4285f4"/>
+        <path d="M32 44h64v8H32zM32 60h64v8H32zM32 76h40v8H32z" fill="#fff"/>
+        <path d="M72 84l16-16-16-16" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div>
+        <h1>AI Chat Exporter</h1>
+        <span class="version">v1.0.0</span>
+      </div>
+    </div>
+
+    <div class="platform-status" id="platformStatus">
+      <span class="dot"></span>
+      <span id="platformName">当前页面</span>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">📦</span>
+        <div>
+          <strong>多平台支持</strong>
+          <p>DeepSeek · Claude · ChatGPT</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">📝</span>
+        <div>
+          <strong>四种格式</strong>
+          <p>JSON · Markdown · TXT · HTML</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🔒</span>
+        <div>
+          <strong>隐私安全</strong>
+          <p>纯本地处理，数据不上传</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <p>在支持的 AI 聊天页面右上角，点击 <strong>"导出对话"</strong> 按钮即可导出当前对话。</p>
+    </div>
+
+    <div class="actions">
+      <a href="https://github.com/LHT-balabala/ai-chat-exporter/issues" target="_blank" class="btn btn-secondary">💬 反馈建议</a>
+      <a href="https://github.com/LHT-balabala/ai-chat-exporter" target="_blank" class="btn btn-secondary">⭐ GitHub</a>
+    </div>
+
+    <div class="footer">
+      <p>MIT License · 如果对你有帮助，欢迎赞赏支持开发者 ☕</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
