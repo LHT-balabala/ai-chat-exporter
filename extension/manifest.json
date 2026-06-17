@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "AI Chat Exporter",
+  "name:zh_CN": "AI聊天记录导出工具",
+  "version": "1.0.0",
+  "description": "一键导出 DeepSeek / Claude / ChatGPT 聊天记录，支持 JSON / Markdown / TXT / HTML 格式",
+  "description:en": "Export AI chat conversations from DeepSeek, Claude, and ChatGPT in JSON, Markdown, TXT, or HTML format",
+  "author": "AI Chat Exporter Team",
+  "homepage_url": "https://github.com/LHT-balabala/ai-chat-exporter",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content/deepseek.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content/claude.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["content/chatgpt.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "AI Chat Exporter"
+  },
+
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://chat.deepseek.com/*",
+    "https://claude.ai/*",
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ]
+}
