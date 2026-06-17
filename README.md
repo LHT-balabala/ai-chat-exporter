@@ -19,12 +19,13 @@
 ### 方式一：Tampermonkey 用户脚本（推荐个人用户）
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. 点击下方链接一键安装（已安装 Tampermonkey 会自动弹出安装窗口）：
-   - [DeepSeek Chat Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/deepseek-chat-exporter.user.js)
-   - [Claude Chat Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/claude-chat-exporter.user.js)
-   - [ChatGPT Exporter](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/chatgpt-chat-exporter.user.js)
+2. 点击下方链接一键安装：
 
-> 也可在 [Greasy Fork](https://greasyfork.org/zh-CN/scripts?q=AI+Chat+Exporter) 或 [OpenUserJS](https://openuserjs.org/) 搜索安装
+| 平台 | GitHub 直装 | ScriptCat |
+|------|------------|-----------|
+| DeepSeek | [安装](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/deepseek-chat-exporter.user.js) | [查看](https://scriptcat.org/zh-CN/script-show-page/6696) |
+| Claude | [安装](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/claude-chat-exporter.user.js) | [查看](https://scriptcat.org/zh-CN/script-show-page/6697) |
+| ChatGPT | [安装](https://github.com/LHT-balabala/ai-chat-exporter/raw/master/scripts/chatgpt-chat-exporter.user.js) | [查看](https://scriptcat.org/zh-CN/script-show-page/6698) |
 
 ### 方式二：Chrome 扩展（一键安装全部）
 
